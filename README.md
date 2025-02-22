@@ -18,7 +18,6 @@ The **Library Management System** is a web application that facilitates book man
 - Return borrowed books.
 
 ## 🔧 Tech Stack
-- **Frontend:** React.js / HTML / CSS / JavaScript
 - **Backend:** Node.js / Express.js
 - **Database:** MongoDB
 - **Authentication:** JWT (JSON Web Tokens)
@@ -37,11 +36,6 @@ cd library-management-system
 cd backend
 npm install
 ```
-#### Frontend
-```bash
-cd frontend
-npm install
-```
 
 ### Environment Variables
 Create a `.env` file in the backend directory and add the following variables:
@@ -54,16 +48,12 @@ JWT_SECRET=your_jwt_secret
 ### Start the Application
 #### Backend
 ```bash
-npm start
-```
-#### Frontend
-```bash
-npm start
+npm run dev
 ```
 
 ## 🔗 Deployment
 This project is deployed on **Render**. You can check out the live version here:
-[Live Demo](your-deployed-url)
+[Live Demo](https://library-system-backend-61ga.onrender.com/)
 
 ## 👨‍💻 Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
