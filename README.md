@@ -1,83 +1,69 @@
-Library Management System
+# Library Management System
 
-📌 Overview
+## 📌 Overview
+The **Library Management System** is a web application that facilitates book management and user role-based authentication. It allows **librarians** to manage books and registered members, while **members** can borrow and return books.
 
-The Library Management System is a web application that facilitates book management and user role-based authentication. It allows librarians to manage books and registered members, while members can borrow and return books.
+## 🚀 Features
 
-🚀 Features
+### 🔐 Role-Based Authentication
+- **Librarian** and **Member** roles with specific access rights.
 
-🔐 Role-Based Authentication
+### 🛠️ Librarian Features
+- View all registered members.
+- Delete registered members.
+- Add, delete, edit, and update books.
 
-Librarian and Member roles with specific access rights.
+### 📚 Member Features
+- Borrow books.
+- Return borrowed books.
 
-🛠️ Librarian Features
+## 🔧 Tech Stack
+- **Frontend:** React.js / HTML / CSS / JavaScript
+- **Backend:** Node.js / Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Tokens)
+- **Hosting:** Deployed on [Render](https://render.com/)
 
-View all registered members.
-
-Delete registered members.
-
-Add, delete, edit, and update books.
-
-📚 Member Features
-
-Borrow books.
-
-Return borrowed books.
-
-🔧 Tech Stack
-
-Frontend: React.js / HTML / CSS / JavaScript
-
-Backend: Node.js / Express.js
-
-Database: MongoDB
-
-Authentication: JWT (JSON Web Tokens)
-
-Hosting: Deployed on Render
-
-🛠 Installation & Setup
-
-Clone the Repository
-
+## 🛠 Installation & Setup
+### Clone the Repository
+```bash
 git clone https://github.com/your-username/library-management-system.git
 cd library-management-system
+```
 
-Install Dependencies
-
-Backend
-
+### Install Dependencies
+#### Backend
+```bash
 cd backend
 npm install
-
-Frontend
-
+```
+#### Frontend
+```bash
 cd frontend
 npm install
+```
 
-Environment Variables
-
-Create a .env file in the backend directory and add the following variables:
-
+### Environment Variables
+Create a `.env` file in the backend directory and add the following variables:
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 
-Start the Application
-
-Backend
-
+### Start the Application
+#### Backend
+```bash
 npm start
-
-Frontend
-
+```
+#### Frontend
+```bash
 npm start
+```
 
-🔗 Deployment
+## 🔗 Deployment
+This project is deployed on **Render**. You can check out the live version here:
+[Live Demo](your-deployed-url)
 
-This project is deployed on Render. You can check out the live version here:
-Live Demo
-
-👨‍💻 Contributing
-
+## 👨‍💻 Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
